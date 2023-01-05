@@ -1,0 +1,129 @@
+/* ============== GLOBAL STYLES ================== */
+
+@font-face {
+    font-family: 'graphik-medium';
+    src: url("../fonts/Graphik-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'theinhardt';
+    src: url("../fonts/Theinhardt-Lt.woff");
+}
+
+@font-face {
+    font-family: 'TiemposHeadline';
+    src: url("../fonts/TiemposHeadline-Semibold.woff");
+}
+
+@font-face {
+    font-family: 'graphik-regular';
+    src: url("../fonts/Graphik-Regular.woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "graphik-medium";
+}
+
+.navStyle {
+    padding-top: 3.3vh;
+    word-spacing: 2vw;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+}
+
+.styleHeadline article h1{
+    padding-right: 25vw;
+    padding-top: 2.8vh;
+    font-family: "TiemposHeadline";
+}
+
+.styleHeadline article p{
+    padding-top: 3vh;
+    border: 1px solid black;
+    margin-top: 2.7vh;
+    padding: 0.7vh 3vw;
+    font-family: "graphik-regular";
+}
+
+.styleHeadline article p:hover {
+    background-color: black;
+    color: white;
+}
+
+.styleHeadline article {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ============== Main First Section with IMG ================== */
+
+.imageOne {
+    background-image: url("../img/home_hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.imageOne h2 {
+    text-align: center;
+    font-family: "graphik-regular";
+}
+
+/* ============== Main Second Section ( range of offers / price)================== */
+
+.rangeOfOffers {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-aroundx;
+}
+
+.rangeOfOffers p:nth-of-type(1) {
+    width: 47vw;
+    padding-left: 5vw;
+    font-family: "graphik-medium";
+}
+
+.rangeOfOffers p:nth-of-type(2) {
+    padding-left: 6vw;
+    width: 19vw;
+    color: rgb(181, 183, 187);
+}
+
+.fontSize {
+    font-size: 3rem;
+    color: black;
+}
+
+/* ============== Main Third Section (imgage + text) ================== */
+
+.styleThirdSection {
+    display: flex;
+    padding-top: 15vh;
+}
+
+.imageDeliverables {
+    max-width: 35vw;
+    padding-left: 5vw;
+}
+
+.styleDeliverables {
+    padding-left: 2vw;
+}
+
+.styleDeliverables h2 {
+    font-size: 2rem;
+    font-family: "TiemposHeadline";
+    padding-bottom: 2vh;
+}
