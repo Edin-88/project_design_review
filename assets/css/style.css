@@ -92,6 +92,7 @@ header nav a {
     width: 47vw;
     padding-left: 5vw;
     font-family: "graphik-medium";
+    line-height: 1.5rem;
 }
 
 .rangeOfOffers p:nth-of-type(2) {
@@ -114,8 +115,7 @@ header nav a {
 }
 
 .imageDeliverables {
-    max-width: 30vw;
-    
+    max-width: 30vw;  
 }
 
 .styleDeliverables {
@@ -138,7 +138,6 @@ header nav a {
     color:  #848689;
     max-width: 39.6vw;
 }
-
 
 /* ============== Main Fourth Section (text + image) ================== */
 
@@ -177,3 +176,199 @@ ol li {
     padding-bottom: 6vh;
 }
 
+/* ============== Main Fifth Section (number + imgage + text) ================== */
+
+
+.styleFifthSection h2 {
+    font-family: "TiemposHeadline";
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2vh;
+}
+
+.styleFifthSection p {
+    font-family: "heinhardt";
+    color: #848689;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.distanceToTwentyEight {
+    padding-bottom: 10vh;
+}
+
+.imageTwentyEightArea {
+   background-image: url("../img/28.png");
+   background-size: cover;
+   background-position: center;
+   height: 38vh;
+   position: relative;
+}
+
+.textBellowTwentyEight p{
+   text-align: left;
+   padding-left: 21vw;
+   font-family: "graphik-medium";
+   color: #848689;
+}
+
+.imageTwentyEightArea img {
+    position: absolute;
+    width: 35vw;
+    top: 22vh;
+    left: 51vw;
+}
+
+.imageTwentyEightArea p {
+    border-bottom: 2px solid black;
+}
+
+.textBellowTwentyEight p:nth-of-type(2) {
+    padding-top: 9vh;
+    border-bottom: 1px solid rgb(181, 183, 187);
+    margin: 0 5vw;
+}
+
+
+/* ============== footer ================== */
+
+footer {
+    padding-top: 10vh;
+}
+
+footer h2 {
+    text-align: center;
+    font-family: "TiemposHeadline";
+    font-size: 3rem;
+}
+
+.contactEmail {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: "graphik-medium";
+}
+
+.styleEmail {
+    font-weight: bolder;
+}
+
+.darkTheme {
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.darkTheme button {
+    padding: 2vh 4vw;
+    font-size: larger;
+}
+
+
+/* ============== Responsiveness Mobile Devices ================== */
+
+@media only screen and (max-width: 450px) {
+    .navStyle {
+        word-spacing: 10vw;
+        text-align: center;
+    }
+
+    .styleHeadline article p{
+        margin: 3vh 30vw; 
+        padding: 1vh 0;
+    }
+
+    .headline {
+        display: block;     
+    }
+
+    .styleHeadline article {
+        display: block;
+        text-align: center;
+    }
+
+    .styleHeadline article h1{
+       padding-left: 25vw;
+    }
+
+    .imageOne {
+        height: 30vh;
+    }
+
+    .imageOne h2 {
+        text-align: left;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .imageDeliverables {
+        max-width: 50vw;
+        height: 99vh;  
+        padding-left: 5vw;
+    }
+    
+    .styleDeliverables h2 {
+        font-size: 1.5rem;
+    }
+
+    .styleDeliverables {
+        padding-left: 6vw;
+    }
+
+    .imageFourthSection {
+        max-width: 80vw;
+       
+    }
+
+    ol {
+        padding-left: 2vw;
+        width: 79vw;
+        color:  #848689;
+    }
+    
+
+    .styleFourthSection {
+        display: block;
+        margin: 10vh 7vw;
+    }
+
+    .styleFourthSection h2{
+        text-align: center;
+    }
+
+    .styleFourthSectionP p {   
+        width: 88vw;
+        padding-left: 2vw;
+    }
+
+    .styleFifthSection p {
+        padding-bottom: 2vh;
+    }
+
+    .imageTwentyEightArea {
+        height: 15vh;
+        
+     }
+     
+     .textBellowTwentyEight p{
+        padding-left: 3vw;    
+     }
+     
+     .imageTwentyEightArea img {
+         top: 8vh;     
+     }
+
+     .textBellowTwentyEight p:nth-of-type(2) {
+        padding-top: 4vh;
+    }
+
+    .contactEmail {
+        padding-left: 10vw;
+    }
+
+    .rangeOfOffers p:nth-of-type(2) {
+        padding-left: 7vw;
+        width: 46vw;
+    }
+}
