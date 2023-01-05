@@ -86,7 +86,6 @@ header nav a {
 .rangeOfOffers {
     padding-top: 10vh;
     display: flex;
-    justify-content: space-aroundx;
 }
 
 .rangeOfOffers p:nth-of-type(1) {
@@ -111,11 +110,12 @@ header nav a {
 .styleThirdSection {
     display: flex;
     padding-top: 15vh;
+    justify-content: center;
 }
 
 .imageDeliverables {
-    max-width: 35vw;
-    padding-left: 5vw;
+    max-width: 30vw;
+    
 }
 
 .styleDeliverables {
@@ -125,5 +125,55 @@ header nav a {
 .styleDeliverables h2 {
     font-size: 2rem;
     font-family: "TiemposHeadline";
-    padding-bottom: 2vh;
+    padding-bottom: 5vh;
 }
+
+.styleDeliverables h3 {
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+}
+
+.styleDeliverables p {
+    padding-bottom: 1vh;
+    color:  #848689;
+    max-width: 39.6vw;
+}
+
+
+/* ============== Main Fourth Section (text + image) ================== */
+
+.styleFourthSection {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 244);
+    margin-top: 10vh; 
+    margin: 10vh 12vw;
+}
+
+.imageFourthSection {
+    max-width: 30vw;
+}
+
+.styleFourthSection h2 {
+    font-family: "TiemposHeadline";
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+    font-size: 2rem;
+}
+
+ol {
+    width: 28vw;
+    color:  #848689;
+}
+
+ol li {
+    margin-left: 4vw;
+}
+
+.styleFourthSectionP p {
+    font-family: "theinhardt";
+    color: #848689;
+    width: 38vw;
+    padding-bottom: 6vh;
+}
+
